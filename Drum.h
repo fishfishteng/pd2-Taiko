@@ -28,7 +28,7 @@ private slots:
 
 private:
     Ui::drum *ui;
-    int a = 3;
+    int a = 30;
     int score = 0;
     int* seconds;
     grade* gradeui;
