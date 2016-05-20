@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>background1_480x300.jpg</file>
+        <file>background1_960x600.jpg</file>
+        <file>background2_480x300.jpg</file>
+        <file>background2_960x600.png</file>
+        <file>red_drum.png</file>
+        <file>blue_drum.png</file>
+        <file>score.jpe</file>
+    </qresource>
+</RCC>

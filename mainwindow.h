@@ -2,11 +2,12 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include "drum.h"
 
 namespace Ui {
 class MainWindow;
 }
-
+class drum;
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
@@ -15,8 +16,14 @@ public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
 
+private slots:
+    void on_pushButton_clicked();
+
+    void on_pushButton_2_clicked();
+
 private:
     Ui::MainWindow *ui;
+    drum * drumui;
 };
 
 #endif // MAINWINDOW_H
